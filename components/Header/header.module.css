@@ -16,3 +16,7 @@
 .btn:hover {
     @apply shadow-md
 }
+
+.btn:hover {
+    @apply text-white font-bold
+}

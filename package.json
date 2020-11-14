@@ -8,8 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/ui": "^0.7.2",
     "next": "10.0.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-loading-skeleton": "^2.1.1"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.9.6"
   }
 }

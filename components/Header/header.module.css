@@ -1,0 +1,18 @@
+.btn {
+    @apply mr-5;
+    @apply p-2;
+    @apply rounded;
+    @apply cursor-pointer
+}
+
+.btn:hover {
+    @apply bg-green-400
+}
+
+.btn:hover {
+    @apply text-gray-900
+}
+
+.btn:hover {
+    @apply shadow-md
+}

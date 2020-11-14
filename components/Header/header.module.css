@@ -2,11 +2,8 @@
     @apply mr-5;
     @apply p-2;
     @apply rounded;
-    @apply cursor-pointer
-}
-
-.btn:hover {
-    @apply bg-green-400
+    @apply cursor-pointer;
+    @apply border-b-4;
 }
 
 .btn:hover {
@@ -14,9 +11,10 @@
 }
 
 .btn:hover {
-    @apply shadow-md
-}
-
-.btn:hover {
     @apply text-white font-bold
 }
+
+.header { 
+    @apply text-gray-700 shadow border-b-2 border-gray-200 ;
+}
+

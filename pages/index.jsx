@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Layout from "../layouts/Layout";
 export default function Home({ response }) {
-  const { data } = response;
-
   return (
     <>
       <Head>

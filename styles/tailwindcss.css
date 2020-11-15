@@ -2,12 +2,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+body {
+  @apply bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 h-screen;
+}
 ::-webkit-scrollbar {
   display: none;
   scrollbar-width: none;
   -ms-overflow-style: none;
-}
-
-#body {
-    @apply bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 h-screen
 }

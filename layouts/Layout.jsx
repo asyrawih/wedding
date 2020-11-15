@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import { useWindowScroll } from "react-use";
 import { Footer } from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import MobileNavbar from "../components/MobileNavbar/MobileNavbar";

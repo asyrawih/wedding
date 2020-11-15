@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Layout from "../layouts/Layout";
+import Features from "../layouts/Section-1/Features";
 export default function Home({ response }) {
   return (
     <>
@@ -9,15 +10,7 @@ export default function Home({ response }) {
       </Head>
       <Layout>
           <div className="section-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet expedita, iure alias culpa consectetur pariatur incidunt! Quae, aut. Laboriosam esse maxime reprehenderit autem quo, illum soluta rem beatae quia et.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet expedita, iure alias culpa consectetur pariatur incidunt! Quae, aut. Laboriosam esse maxime reprehenderit autem quo, illum soluta rem beatae quia et.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet expedita, iure alias culpa consectetur pariatur incidunt! Quae, aut. Laboriosam esse maxime reprehenderit autem quo, illum soluta rem beatae quia et.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet expedita, iure alias culpa consectetur pariatur incidunt! Quae, aut. Laboriosam esse maxime reprehenderit autem quo, illum soluta rem beatae quia et.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet expedita, iure alias culpa consectetur pariatur incidunt! Quae, aut. Laboriosam esse maxime reprehenderit autem quo, illum soluta rem beatae quia et.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet expedita, iure alias culpa consectetur pariatur incidunt! Quae, aut. Laboriosam esse maxime reprehenderit autem quo, illum soluta rem beatae quia et.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet expedita, iure alias culpa consectetur pariatur incidunt! Quae, aut. Laboriosam esse maxime reprehenderit autem quo, illum soluta rem beatae quia et.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet expedita, iure alias culpa consectetur pariatur incidunt! Quae, aut. Laboriosam esse maxime reprehenderit autem quo, illum soluta rem beatae quia et.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet expedita, iure alias culpa consectetur pariatur incidunt! Quae, aut. Laboriosam esse maxime reprehenderit autem quo, illum soluta rem beatae quia et.
+           <Features />
           </div>
       </Layout>
     </>

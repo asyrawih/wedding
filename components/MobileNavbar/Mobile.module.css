@@ -18,6 +18,7 @@
 @media only screen and (max-width: 600px) {
   .mobile__sticky {
     @apply bg-gray-300 flex fixed bottom-0 left-0 justify-between h-16 items-center justify-items-center px-5;
+    @apply rounded-tl-md rounded-tr-md;
     width: 100%;
     animation: moveDown 0.5s ease-in-out;
   }

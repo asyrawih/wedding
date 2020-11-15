@@ -25,11 +25,3 @@ export default function Home({ response }) {
     </>
   );
 }
-
-export async function getServerSideProps(ctx) {
-  const request = await fetch("http://localhost:3000/api/category/");
-  const response = await request.json();
-  return {
-    props: { response },
-  };
-}

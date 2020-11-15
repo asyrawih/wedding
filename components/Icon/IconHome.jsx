@@ -8,7 +8,7 @@ const IconHome = () => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        className="h-8"
+        className="h-6"
       >
         <path
           strokeLinecap="round"

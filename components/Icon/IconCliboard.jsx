@@ -7,7 +7,7 @@ const IconCliboard = () => {
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
-      className="w-8"
+      className="w-6"
     >
       <path
         strokeLinecap="round"

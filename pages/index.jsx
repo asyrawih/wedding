@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Layout from "../layouts/Layout";
-import Features from "../layouts/Section-1/Features";
+import ContactPerson from "../layouts/Section/ContactPerson";
+import Features from "../layouts/Section/Features";
+import Piercing from "../layouts/Section/Piercing";
 
 export default function Home({ response }) {
   return (
@@ -10,9 +12,9 @@ export default function Home({ response }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-          <div className="section-1">
-            <Features />
-          </div>
+        <Features />
+        <Piercing />
+        <ContactPerson />
       </Layout>
     </>
   );

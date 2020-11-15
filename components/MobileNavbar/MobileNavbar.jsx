@@ -9,7 +9,7 @@ const MobileNavbar = () => {
   const { y } = useWindowScroll();
   const [visable, setVisable] = useState(false);
   useEffect(() => {
-    if (y < 110) {
+    if (y < 400) {
       setVisable(true);
     } else {
       setVisable(false);

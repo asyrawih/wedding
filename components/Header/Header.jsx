@@ -3,24 +3,31 @@ import IconHome from "../Icon/IconHome";
 import IconSearch from "../Icon/IconSearch";
 import IconCliboard from "../Icon/IconCliboard";
 import Style from "./header.module.css";
+import Link from "next/link";
 
 function Header() {
   return (
     <header className={Style.header}>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="hidden md:flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a className={Style.btn}>
-            <IconHome />
-            Home
-          </a>
-          <a className={Style.btn}>
-            <IconSearch />
-            Find Your Photo
-          </a>
-          <a className={Style.btn}>
-            <IconCliboard />
-            Service
-          </a>
+          <Link href="/">
+            <a className={Style.btn}>
+              <IconHome />
+              Home
+            </a>
+          </Link>
+          <Link href="/service">
+            <a className={Style.btn}>
+              <IconSearch />
+              Find Your Photo
+            </a>
+          </Link>
+          <Link href="/contact">
+            <a className={Style.btn}>
+              <IconCliboard />
+              Service
+            </a>
+          </Link>
         </nav>
         <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
           <svg

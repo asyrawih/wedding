@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "../layouts/Layout";
 import Features from "../layouts/Section-1/Features";
+
 export default function Home({ response }) {
   return (
     <>
@@ -10,7 +11,7 @@ export default function Home({ response }) {
       </Head>
       <Layout>
           <div className="section-1">
-           <Features />
+            <Features />
           </div>
       </Layout>
     </>

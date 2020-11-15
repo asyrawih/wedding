@@ -1,13 +1,17 @@
 .btn {
+    @apply justify-items-center;
+    @apply items-center ;
     @apply mr-5;
     @apply p-2;
     @apply rounded;
     @apply cursor-pointer;
     @apply border-b-4;
+    display: flex;
+    flex-direction: column
 }
 
 .btn:hover {
-    @apply text-gray-900
+    @apply text-gray-600
 }
 
 .btn:hover {

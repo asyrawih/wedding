@@ -5,6 +5,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+:root {
+  @apply font-poppins font-semibold;
+}
+
 body {
   @apply bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 h-screen;
 }

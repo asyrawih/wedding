@@ -10,7 +10,7 @@ const Service = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <h1 className="text-3xl">Contact Pages</h1>
+        <h1 className="text-3xl">Service Pages</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
           ipsam dolorem voluptatum tenetur! Quia similique, error amet unde
